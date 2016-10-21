@@ -1,46 +1,79 @@
 body {
-    font-family: 'Merriweather', serif;
     margin: 0;
-    /* a margo nulla */
-    color: #59a27a;
-    /* rgb(200, 0, 50) */
+    color: #222;
 }
 
 img {
-    width: 100%;
-    /* a kep kitolti az oldalt szelessegeben, ahogy huzogatom a szelesseget a bongeszonek, ugy valtozik */
+    width: 110%;
+    margin-left: -5%;
 }
 
 article {
-    max-width: 668px;
+    max-width: 800px;
     margin-top: auto;
     margin-right: auto;
-    /*nincs space*/
     margin-left: auto;
-    /*margin: 0 auto; ez ilyen allinone*/
+    font-family: 'Josefin Sans', sans-serif;
+
 }
 
 h1,
 h2 {
-    text-align: center;
+    text-align: left;
 }
 
 h1 {
-    font-size: 38px;
+    font-size: 50px;
     font-weight: 900;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 h2 {
-    /*alapvetoen beturendi sorrendet illik tartani, de ez legyen a legkisebb bajunk*/
-    font-family: 'Lato', sans-serif;
-    font-size: 24px;
-    font-weight: normal;
-    margin-top: 0;
-    color: #666;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 30px;
 }
 
-p {
-    font-size: 21px;
+h4,
+h5 {
+    margin: 0;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h5 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+p,
+ul {
+    font-size: 24px;
     line-height: 33px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+hr {
+    height: 5px;
+    background-color: #222;
+}
+
+.listsmall {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.head {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.boldp {
+  font-weight: bold;
 }
